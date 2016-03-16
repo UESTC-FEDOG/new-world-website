@@ -246,6 +246,7 @@ li {
     background-color: #be4e48;
     color: rgba(255, 255, 255, 0.8);
     -moz-text-align-last: justify;
+    text-align-last: justify;
     padding: 0 80px;
 }
 
@@ -331,6 +332,7 @@ li {
 
 .city-activity > div:nth-child(2) h2 {
     -moz-text-align-last: justify;
+    text-align-last: justify;
 }
 
 /*图库部分*/
@@ -527,12 +529,14 @@ li {
     margin-right: 5px;
     width: 5em;
     -moz-text-align-last: justify;
+    text-align-last: justify;
     margin-top: 7px;    
 }
 
 #join-us label[for="dream"] {
     width: 100%;
     -moz-text-align-last: left;
+    text-align-last: left;
     margin-bottom: 10px;
 }
 
@@ -584,6 +588,7 @@ li {
     height: 40px;
     padding: 0 20px;
     -moz-text-align-last: justify;
+    text-align-last: justify;
 }
 
 #contact-us .link a {
