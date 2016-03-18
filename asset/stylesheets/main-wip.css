@@ -91,6 +91,13 @@ li {
 
 .head-guide p{
   float: left;
+  line-height: 37px;
+  margin: 10px 0;
+  vertical-align: middle;
+}
+
+.head-guide p img {
+  vertical-align: middle;
 }
 
 .head-guide nav {
@@ -101,6 +108,25 @@ li {
   float: left;
 }
 
+.head-guide nav li a {
+  display: block;
+  line-height: 55px;
+  margin-left: 20px;
+  opacity: 0.5;
+}
+
+.head-guide nav li a:hover {
+  color: red;
+  border-bottom: 2px solid red;
+  opacity: 1;
+}
+
+.head-guide .selected {
+  color: red;
+  border-bottom: 2px solid red;
+  opacity: 1;
+}
+
 
 /*start部分*/
 
@@ -108,7 +134,30 @@ li {
   height: 500px;
   background-image: url(../img/intrain.png);
   background-size: cover;
+  padding: 180px 0 200px 100px;
+  color: #ffffff;
 }
+
+.start h1 {
+  margin-bottom: 10px;
+}
+
+.start article small {
+  opacity: 0.7;
+}
+
+.start a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  background-color: red;
+  line-height: 50px;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
 
 /*description部分*/
 
@@ -118,26 +167,92 @@ li {
 
 .detail-description ul li {
   float: left;
+  width: 25%;
+  height: 198px;
+  text-align: center;
+  padding-top: 30px;
 }
+
+.detail-description ul li p {
+  display: block;
+  margin-top: 20px;
+  padding: 0 55px 0 55px;
+  border-right: 1px solid gray;
+}
+
+.detail-description ul li:last-child p {
+  border:0;
+}
+
 
 .do-you-know header {
   height: 325px;
-  background-color: gray;
+  background-color: rgba(244,67,54,0.09);
+  text-align: center;
+  padding-top: 60px;
 }
 
-.do-you-know section {
+.do-you-know header h1 {
+  margin-top: 20px;
+  color: black;
+  opacity: 0.6;
+}
+
+
+
+.do-you-know .lookInfo {
   height: 300px;
-
+  text-align: center;
+  color:#ffffff;
+  background-image: url(../img/map.png);
+  padding-top: 50px;
 }
 
+.do-you-know .lookInfo div {
+  width: 25px;
+  height: 2px;
+  background-color: #ffffff;
+  margin-left: 580px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.do-you-know .lookInfo  small {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.do-you-know .lookInfo select {
+  width: 200px;
+  height: 30px;
+}
+
+.do-you-know .lookInfo input {
+  width: 180px;
+  background-color: red;
+  color: #ffffff;
+  border: 0;
+}
 
 .activity {
   height: 560px;
   background-color: gray;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  width: 1200px;
 }
+
+.activity ul {
+  display: inline-block;
+  background-color: red;
+}
+
 
 .activity ul li{
   float: left;
+  height: 100%;
+  line-height: 100%;
 }
 
  /*showfuture部分*/
