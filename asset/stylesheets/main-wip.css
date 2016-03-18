@@ -178,3 +178,19 @@ li {
 .contact-us {
   height: 446px;
 }
+
+
+/*footer部分*/
+footer {
+  height: 30px;
+  background-color: black;
+  color: #ffffff;
+}
+
+footer small {
+  float: left;
+}
+
+footer a {
+  float: right;
+}
