@@ -67,7 +67,7 @@ li {
 /* normalize/rest 结束*/
 
 
-/*以下是通用部分*/
+/*通用部分*/
 
 .container {
     width: 1200px;
@@ -79,5 +79,32 @@ li {
     text-align: center;
 }
 
+.clearfix:after {
+  display: block;
+  content: "";
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
 
-/*以下是简介部分*/
+/*head-guide部分*/
+
+.head-guide p{
+  float: left;
+}
+
+.head-guide nav {
+  float: right;
+}
+
+.head-guide nav li{
+  float: left;
+}
+
+/*start部分*/
+
+.start {
+  height: 854px;
+  background-image: url(../img/intrain.png);
+}
+
