@@ -486,6 +486,20 @@ li {
   color: gray;
 }
 
+.jion-us aside {
+  width: 30%;
+  float: left;
+  margin-left: 70px;
+  margin-right: 30px;
+}
+
+.jion-us aside .more {
+  text-align: right;
+}
+
+.jion-us-main #name {
+  width: 200px;
+}
 /*contact-us部分*/
 
 .contact-us {
