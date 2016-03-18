@@ -236,7 +236,7 @@ li {
 
 .activity {
   height: 560px;
-  background-color: gray;
+  background-color: rgba(128,128,128,0.1);
   text-align: center;
   vertical-align: middle;
   display: table-cell;
@@ -245,7 +245,7 @@ li {
 
 .activity ul {
   display: inline-block;
-  background-color: red;
+  opacity: 1;
 }
 
 
@@ -253,32 +253,208 @@ li {
   float: left;
   height: 100%;
   line-height: 100%;
+  margin-right: 30px;
 }
+
+.activity  p {
+  font-size: 16px;
+}
+
+.activity p span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+#spc {
+  text-align-last: justify;
+}
+/*
+#spc {
+  text-align: justify;
+}
+
+#spc:after {
+  display: block;
+  content: ",";
+  line-height: 0;
+  visibility: hidden;
+}*/
+
+.activity .pic {
+  width: 220px;
+  height: 230px;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.activity ul li:first-child .pic {
+  background-image: url(../img/paints.png);
+  background-position: 8px 8px;
+}
+
+.activity ul li:nth-child(2) .pic {
+  background-image: url(../img/paints.png);
+  background-position: -246px -50px;
+}
+
+.activity ul li:nth-child(3) .pic {
+  background-image: url(../img/paints.png);
+  background-position: -504px 7px;
+}
+
+.activity ul li:nth-child(4) .pic {
+  background-image: url(../img/paints.png);
+  background-position: -760px 10px;
+}
+
+
+
+
 
  /*showfuture部分*/
 
  .show-future {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
  }
 
- .left-top {
+ .show-future .left-top {
   width: 850px;
   height: 567px;
+  background-image: url(../img/legs.png);
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
  }
 
- .right-top {
+.show-future .left-top article {
+  margin-top: 110px;
+}
+
+.show-future .left-top article h3 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.show-future .left-top article h1 {
+  font-size: 180px;
+  font-family: 宋体;
+  margin: 0;
+}
+
+ .show-future .right-top {
   width: 350px;
   height: 567px;
+  text-align: center;
+  padding:0 40px;
  }
 
- .left-bottom {
+ .show-future .right-top article {
+  margin-top: 150px;
+ }
+
+ .show-future .right-top article h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+ }
+
+.show-future .right-top article h1 span {
+  color: red;
+}
+
+.show-future .right-top article p {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.show-future .right-top article a {
+  display: block;
+  margin-top: 40px;
+  color: red;
+  width: 80px;
+  height: 30px;
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+.show-future .right-top nav {
+  margin-left:95px;
+}
+
+.show-future .right-top nav li {
+  float: left;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: gray;
+  margin: 20px 10px;
+}
+
+ .show-future .left-bottom {
     width: 850px;
     height: 521px;
+    display: flex;
  }
 
-.right-bottom {
+.show-future .left-bottom-left {
+  flex: 1;
+  background-color: red;
+  color: white;
+  padding-top:200px;
+  text-align: center;
+}
+
+.show-future .left-bottom-left a {
+  display: block;
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 15px;
+  margin-left: 150px;
+  border: 1px solid white;
+}
+
+.show-future .left-bottom-right {
+  flex: 1;
+  padding-top:200px;
+  text-align: center;
+}
+
+.show-future .left-bottom-right span {
+  color: gray;
+}
+
+.show-future .left-bottom-right a {
+  display: block;
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 15px;
+  margin-left: 150px;
+  color: red;
+  border: 1px solid red;
+}
+
+.show-future .right-bottom {
   width: 350px;
   height: 521px;
+  background-image: url(../img/station.png);
+  background-size: cover;
+  position: relative;
+}
+
+.show-future .right-bottom .angle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%)
 }
 
 
@@ -286,6 +462,28 @@ li {
 
 .jion-us {
   height: 565px;
+}
+
+.jion-us header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 300px;
+}
+
+.jion-us header h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.jion-us header h3 {
+  font-size: 30px;
+  color: red;
+  margin: 0;
+}
+
+.jion-us header p {
+  color: gray;
 }
 
 /*contact-us部分*/
