@@ -101,10 +101,80 @@ li {
   float: left;
 }
 
+
 /*start部分*/
 
 .start {
-  height: 854px;
+  height: 500px;
   background-image: url(../img/intrain.png);
+  background-size: cover;
 }
 
+/*description部分*/
+
+.detail-description {
+  height: 198px;
+}
+
+.detail-description ul li {
+  float: left;
+}
+
+.do-you-know header {
+  height: 325px;
+  background-color: gray;
+}
+
+.do-you-know section {
+  height: 300px;
+
+}
+
+
+.activity {
+  height: 560px;
+  background-color: gray;
+}
+
+.activity ul li{
+  float: left;
+}
+
+ /*showfuture部分*/
+
+ .show-future {
+  display: flex;
+ }
+
+ .left-top {
+  width: 850px;
+  height: 567px;
+ }
+
+ .right-top {
+  width: 350px;
+  height: 567px;
+ }
+
+ .left-bottom {
+    width: 850px;
+    height: 521px;
+ }
+
+.right-bottom {
+  width: 350px;
+  height: 521px;
+}
+
+
+/*jion-us部分*/
+
+.jion-us {
+  height: 565px;
+}
+
+/*contact-us部分*/
+
+.contact-us {
+  height: 446px;
+}
