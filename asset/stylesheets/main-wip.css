@@ -223,12 +223,30 @@ li {
 }
 
 .do-you-know .lookInfo select {
-  width: 200px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+ -o-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
   height: 30px;
+  line-height: 30px;
+  width: 200px;
+  border: rgb(191, 204, 220) 1px solid;
+  border-radius: 0;
+  display: inline-block;
+  font: normal 12px/25px "微软雅黑", "SimSun", "宋体", "Arial";
+  background-color: #fff;
+  background-image: url(../img/user.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
 
 .do-you-know .lookInfo input {
   width: 180px;
+  height: 30px;
   background-color: red;
   color: #ffffff;
   border: 0;
@@ -493,19 +511,110 @@ li {
   margin-right: 30px;
 }
 
+.jion-us aside article h3:first-child {
+  margin-top: 0;
+}
+
 .jion-us aside .more {
   text-align: right;
 }
 
-.jion-us-main #name {
-  width: 200px;
+.jion-us-main {
+  margin-left: 38%;
 }
+
+.jion-us-main input {
+  width: 280px;
+}
+
+.jion-us-main label  {
+  width: 80px;
+  display: inline-block;
+  text-align-last: justify;
+  margin-bottom: 50px;
+}
+
+.jion-us-main form label:nth-child(9) {
+  width: inherit;
+  margin-bottom: 10px;
+}
+
+.jion-us-main form textarea {
+  width: 98%;
+}
+
+.jion-us-main button {
+  margin-top: 20px;
+  height: 30px;
+  width: 98%;
+}
+
+
+/*.jion-us-main #age {
+  width: 310px;
+}*/
+
+
 /*contact-us部分*/
 
 .contact-us {
   height: 446px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  color: #ffffff;
+  padding-top: 8%;
 }
 
+.contact-us form {
+  margin-top: 20px;
+}
+
+.contact-us form input {
+  width: 45%;
+  height: 30px;
+  border: 0;
+  padding:0;
+}
+
+.contact-us form button{
+  width: 80px;
+  height: 30px;
+  color: #ffffff;
+  background-color: gray;
+  border: 0;
+  margin-top: 10px;
+  margin-left: -4px;
+  padding: 0;
+}
+
+.contact-us .link {
+  margin-left: 42%;
+  padding-top: 30px;
+}
+
+.contact-us .link li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  margin-left: 20px;
+}
+
+.contact-us .link li:first-child {
+  background-image: url(../img/iconfont-QQ.png);
+}
+
+.contact-us .link li:nth-child(2) {
+  background-image: url(../img/iconfont-weibo.png);
+}
+
+.contact-us .link li:nth-last-child(2) {
+  background-image: url(../img/iconfont-twitter.png);
+}
+
+.contact-us .link li:last-child {
+  background-image: url(../img/iconfont-diqiu.png);
+}
 
 /*footer部分*/
 footer {
