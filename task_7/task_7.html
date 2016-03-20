@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
 	<meta charset="UTF-8">
 	<title>task_7</title>
 	<link rel="stylesheet" href="task_7.css">
 </head>
 <body>
 	<div id="contanier">
-		<header>
+		<header >
 			<p>新世界</p>
 			<ul>
 				<li><a href="#">首页</a></li>
@@ -41,31 +41,27 @@
 				<h2>查找新世界城市活动信息</h2>
 				<div class="hr"></div>
 				<p>每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
-				<select name="" id="">
-						<option value="">中国</option>
-						<option value="">美国</option>
-						<option value="">韩国</option>
-						<option value="">日本</option>
-				</select>
-				<select name="" id="">
-						<option value="">北京市</option>
-						<option value="">陕西省</option>
-						<option value="">河北省</option>
-						<option value="">河南省</option>
-						</select>
-				<select name="" id="">
-						<option value="">成都</option>
-						<option value="">西安</option>
-						<option value="">安康</option>
-						<option value="">邯郸</option>
-					</select>
-				<button>搜索</button>
+				<form action="">
+				<ul>
+					<li><a href="">中国</a></li>
+					<li class="province"><a href="">省份</a>
+							<ul><li><a href="">北京市</a></li>
+							<li><a href="">陕西省</a></li>
+							<li><a href="">辽宁省</a></li>
+							<li><a href="">内蒙古自治区</a></li>
+							<li><a href="">天津市</a></li>
+							<li><a href="">河北省</a></li></ul>
+					</li>
+					<li><a href="">城市</a></li>
+					<li><button>搜索</button></li>
+				</ul>
+				</form>
 			</div>
-			<ul>
+			<ul class="activity">
 				<li>
 					<img src="one.png" alt="">
-					<h2>北京活动</h2>
-					<p>新社区大联盟</p>
+					<h2><small>北京活动</small></h2>
+					<p>新社区大联盟</small></p>
 				</li>
 				<li>
 					<h2>上 海 活 动</h2>
@@ -74,12 +70,12 @@
 				</li>
 				<li>
 					<img src="three.png" alt="">
-					<h2>深圳活动</h2>
+					<h2><small>深圳活动</small></h2>
 					<p>全新海岸线观点站</p>
 				</li>
 				<li>
 					<img src="four.png" alt="">
-					<h2>香港活动</h2>
+					<h2><small>香港活动</small></h2>
 					<p>奢侈消费大派送</p>
 				</li>
 			</ul>
@@ -114,21 +110,21 @@
 		</div>
 		<div id="about_volunteers">
 			<h2>成为我们的志愿者</h2>
-			<p>新世界的大家庭需要每一个爱生活的人，如果你够年轻，有梦想，有激情<br/>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+			<a class="join">新世界的大家庭需要每一个爱生活的人，如果你够年轻，有梦想，有激情<br/>那就不要犹豫，快来加入我们，成为改变所有人生活的人</a>
 			<div class="document">
 				<div>
 					<h3>新世界志愿者协议</h2>
-					<p>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则 ......</p>
-					<a href="#">more</a>
+					<a>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则 ......</a>
+					<a href="#" class="more">more</a>
 				</div>
 				<div>
 					<h3>新世界志愿者权利</h2>
-					<p>新世界志愿者享受新世界内部所以资源共享的权利，并且享受所在地新世界活动的有限参与资格 ......</p>
-					<a href="#">more</a>
+					<a>新世界志愿者享受新世界内部所以资源共享的权利，并且享受所在地新世界活动的有限参与资格 ......</a>
+					<a href="#" class="more">more</a>
 				</div>
 				<div>
 					<h3>更多条款</h3>
-					<a href="#">more</a>
+					<a href="#" class="more">more</a>
 				</div>				
 			</div>
 			<form action="">
@@ -149,8 +145,7 @@
 			<h2>联系我们</h2>
 			<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯<br/>也可以通过以下任何方式关注我们动态</p>
 			<form action="">
-				<input type="text" value="someone@email.com">
-				<button>提交</button>
+				<input type="text" value="someone@email.com"><button><span>提交</span></button>
 			</form>
 			<ul>
 				<li><img src="qq.png" alt=""></li>
