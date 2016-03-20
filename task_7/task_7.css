@@ -224,10 +224,7 @@ header ul li:last-child a{
 	background: white url(dow.png) no-repeat 95% 50%;
 	cursor: pointer;
 }
-#about_activity div.search form ul li:last-child{
-	text-indent: 0;
-	line-height: 0;
-}
+
 #about_activity div.search form ul li.province li{
 	height: 30px;
 	border: none;
