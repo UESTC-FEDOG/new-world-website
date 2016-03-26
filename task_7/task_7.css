@@ -1,11 +1,11 @@
 html {
-  -ms-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: Roboto,Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 }
 *{
-	
+
 }
 body{
 	margin: 0;
@@ -14,14 +14,13 @@ body{
 p{
 	font-size: 21px;
 	margin: 0;
-	text-align: center;	
+	text-align: center;
 	line-height: 28px;
 }
 a{
 	text-decoration: none;
 	font-size: 14px;
 	color: #857D7A;
-
 }
 ul{
 	list-style: none;
@@ -216,13 +215,17 @@ header ul li:last-child a{
 	height: 35px;
 	width: 235px;
 	line-height: 35px;
-	color: #777; 
+	color: #777;
 	text-indent: 5px;
 	margin-right: 30px;
 	border: 1px solid #CF5F59;
 	text-align: left;
 	background: white url(dow.png) no-repeat 95% 50%;
 	cursor: pointer;
+}
+
+#about_activity div.search form ul li:last-child {
+	text-indent: 0;
 }
 
 #about_activity div.search form ul li.province li{
@@ -249,7 +252,7 @@ header ul li:last-child a{
 }
 #about_activity div.search button{
 	width: 236px;
-	height: 35px;
+	height: 37px;
 	background-color: #BE4E48;
 	color: white;
 	border: none;
@@ -434,8 +437,12 @@ div.hr{
 	background-color: #EDEDEE;
 	padding: 10px 5px;
 }
+
+#about_volunteers form #address {
+	width: 475px;
+}
 #about_volunteers form #dream{
-	width: 450px;
+	width: 565px;
 	height: 88px;
 	margin-top: 10px;
 }
@@ -470,12 +477,13 @@ div.hr{
 	font-family: 微软雅黑;
 }
 #about_contact form input{
-	height: 40px;
+	height: 42px;
 	width: 430px;
 	border: none;
 	font-size: 14px;
 	text-indent: 5px;
 	color: #C5C4C5;
+	padding: 0;
 }
 #about_contact form button{
 	height: 42px;
