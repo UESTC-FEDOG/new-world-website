@@ -1,5 +1,5 @@
 html {
-  -ms-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: Roboto,Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
@@ -62,7 +62,7 @@ optgroup,
 select,
 textarea {
   font: inherit;
-  margin: 0; 
+  margin: 0;
 }
 
 button,
@@ -91,7 +91,7 @@ ul,
 li,
 h1,
 h2 {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
@@ -113,6 +113,53 @@ li {
     text-align: center;
 }
 
+/*head-guide部分*/
+
+.clearfix:after {
+  display: block;
+  content: "";
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.head-guide p{
+  float: left;
+  line-height: 37px;
+  margin: 10px 0;
+  vertical-align: middle;
+}
+
+.head-guide p img {
+  vertical-align: middle;
+}
+
+.head-guide nav {
+  float: right;
+}
+
+.head-guide nav li{
+  float: left;
+}
+
+.head-guide nav li a {
+  display: block;
+  line-height: 55px;
+  margin-left: 20px;
+  opacity: 0.5;
+}
+
+.head-guide nav li a:hover {
+  color: red;
+  border-bottom: 2px solid red;
+  opacity: 1;
+}
+
+.head-guide .selected {
+  color: red;
+  border-bottom: 2px solid red;
+  opacity: 1;
+}
 
 /*以下是简介部分*/
 
@@ -120,7 +167,7 @@ li {
     background-image: url(/asset/img/intrain.png);
     background-size: cover;
     height: 500px;
-    
+
 }
 
 #intro header div {
@@ -139,7 +186,7 @@ li {
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     padding-left: 90px;
-    line-height: 1.5;    
+    line-height: 1.5;
 }
 
 #intro .more-button {
@@ -185,12 +232,12 @@ li {
 #intro .description li {
     display: inline-block;
     width: 23%;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 #intro .description .icon + p {
     padding: 0 20px;
-    border-right: 1px solid grey;    
+    border-right: 1px solid grey;
 }
 
 #intro .description li:last-child .icon + p {
@@ -223,9 +270,16 @@ li {
     color: #fff;
     font-size: 30px;
     font-weight: normal;
-    padding: 50px 0 20px 0;
+    padding: 50px 0 0 0;
 }
 
+.search-form h1:nth-child(2) {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    line-height: 25px;
+    height: 25px;
+}
 .search-form h1 + small {
     display: block;
     color: #fff;
@@ -413,9 +467,9 @@ li {
     display: block;
     position: absolute;
     width: 0;
-    height: 0; 
-    border-top: 25px solid transparent; 
-    border-left: 50px solid #fff; 
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #fff;
     border-bottom: 25px solid transparent;
     top: 50%;
     transform: translateY(-50%);
@@ -425,6 +479,11 @@ li {
     width: 425px;
     height: 521px;
     text-align: center;
+}
+
+#gallery .row:last-child .description p {
+    font-size: 35px;
+    height: 35px;
 }
 
 #gallery .row:last-child .description:first-child {
@@ -530,7 +589,7 @@ li {
     width: 5em;
     -moz-text-align-last: justify;
     text-align-last: justify;
-    margin-top: 7px;    
+    margin-top: 7px;
 }
 
 #join-us label[for="dream"] {
@@ -573,6 +632,7 @@ li {
 
 #contact-us .search {
     margin-top: 20px;
+    vertical-align: top;
 }
 
 #contact-us .search input {
@@ -589,6 +649,7 @@ li {
     padding: 0 20px;
     -moz-text-align-last: justify;
     text-align-last: justify;
+    vertical-align: top;
 }
 
 #contact-us .link a {
