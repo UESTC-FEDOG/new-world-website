@@ -164,7 +164,7 @@ li {
 /*以下是简介部分*/
 
 #intro header {
-    background-image: url(/asset/img/intrain.png);
+    background-image: url(../img/intrain.png);
     background-size: cover;
     height: 500px;
 
@@ -207,22 +207,22 @@ li {
 
 #intro .description li:first-child .icon {
     background-position: 50% 50%;
-    background-image: url(/asset/img/icon-target.png);
+    background-image: url(../img/icon-target.png);
 }
 
 #intro .description li:nth-child(2) .icon {
     background-position: 50% 50%;
-    background-image: url(/asset/img/icon-flag.png);
+    background-image: url(../img/icon-flag.png);
 }
 
 #intro .description li:nth-child(3) .icon {
     background-position: 50% 50%;
-    background-image: url(/asset/img/icon-flower.png);
+    background-image: url(../img/icon-flower.png);
 }
 
 #intro .description li:nth-child(4) .icon {
     background-position: 50% 50%;
-    background-image: url(/asset/img/icon-blocks.png);
+    background-image: url(../img/icon-blocks.png);
 }
 
 #intro .description {
@@ -252,7 +252,7 @@ li {
     color: #867e7a;
     background-repeat: no-repeat;
     background-position: 50% 50px;
-    background-image: url(/asset/img/icon-books.png);
+    background-image: url(../img/icon-books.png);
     letter-spacing: 0.1em;
 }
 
@@ -260,7 +260,7 @@ li {
 
 #activity .search-form {
     height: 300px;
-    background-image: url(/asset/img/map.png);
+    background-image: url(../img/map.png);
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -339,7 +339,7 @@ li {
     width: 220px;
     height: 330px;
     border: 1px solid #d9d5d4;
-    background-image: url(/asset/img/paints.png);
+    background-image: url(../img/paints.png);
     background-repeat: no-repeat;
     background-color: #fff;
     margin-right: 30px;
@@ -402,7 +402,7 @@ li {
 }
 
 #gallery .row:first-child .photo-placeholder {
-    background-image: url(/asset/img/legs.png);
+    background-image: url(../img/legs.png);
     background-repeat: no-repeat;
     width: 850px;
     height: 567px;
@@ -456,7 +456,7 @@ li {
 }
 
 #gallery .row:last-child .photo-placeholder {
-    background-image: url(/asset/img/station.png);
+    background-image: url(../img/station.png);
     position: relative;
     height: 521px;
     width: 350px;
@@ -667,19 +667,19 @@ li {
 }
 
 #contact-us .link li:first-child {
-    background-image: url(/asset/img/iconfont-qq.png);
+    background-image: url(../img/iconfont-qq.png);
 }
 
 #contact-us .link li:nth-child(2) {
-    background-image: url(/asset/img/iconfont-weibo.png);
+    background-image: url(../img/iconfont-weibo.png);
 }
 
 #contact-us .link li:nth-child(3) {
-    background-image: url(/asset/img/iconfont-twitter.png);
+    background-image: url(../img/iconfont-twitter.png);
 }
 
 #contact-us .link li:nth-child(4) {
-    background-image: url(/asset/img/iconfont-diqiu.png);
+    background-image: url(../img/iconfont-diqiu.png);
 }
 
 #footer {
